@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AD Media Technology | Complete Advertising Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+    <div class="container">
+        <a href="#home" class="logo">
+            <img src="admedialogo.png" alt="Logo" class="nav-logo-img">
+            AD <span>MEDIA TECHNOLOGY</span>
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Brands</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section id="home" class="hero-modern">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+        <h1 class="reveal-text">Complete Advertising Solutions Throughout India</h1>
+        <p class="reveal-subtext">From concept designing to final execution, we provide better solutions in quick time.</p>
+    </div>
+</section>
+
+    <section id="about" class="section">
+        <div class="container about-content">
+            <h2 class="section-title">About Us</h2>
+            <p><b>AD MEDIA TECHNOLOGY</b> in Delhi, our service throughout India. We are a complete Advertising solutions company. Our area of focus ranges from design, Printing, Signage, Retail, Fabrication, Merchandising, Scoping and Execution, corporate gifts and novelties, and much more.</p>
+            
+            <ul class="about-list">
+                <li>All our departments are linked to each other, thus providing better solutions in a quick time.</li>
+                <li>Learning and feedback from the implementation team helps us serve better to the industry.</li>
+                <li>The implementation team caters throughout India. Our skilled team is the backbone of our organization.</li>
+            </ul>
+            <div class="mission-box">
+                <p>"Our goal is to provide good service to all our clients and the whole industry."</p>
+            </div>
+        </div>
+    </section>
+
+   <section id="services" class="section dark">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            
+            <a href="work.html" class="service-card" style="--bg-image: url('Digital.png');">
+    <div class="service-content">
+        <h3>Digital Printing</h3>
+    </div>
+</a>
+
+<a href="work.html" class="service-card" style="--bg-image: url('Offset.png');">
+    <div class="service-content">
+        <h3>Offset Printing</h3>
+    </div>
+</a>
+
+<a href="work.html" class="service-card" style="--bg-image: url('Branding.png');">
+    <div class="service-content">
+        <h3>In-Shop Branding</h3>
+    </div>
+</a>
+
+<a href="work.html" class="service-card" style="--bg-image: url('design.png');">
+    <div class="service-content">
+        <h3>Concept Designing</h3>
+    </div>
+</a>
+
+
+        </div>
+    </div>
+</section>
+
+    <section id="work" class="section">
+    <div class="container">
+        <h2 class="section-title">Brands We Have Worked With</h2>
+        <div class="carousel-container">
+            <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+            <button class="next" onclick="changeSlide(1)">&#10095;</button>
+
+            <div class="carousel-viewport">
+                <div class="slide active"><img src="logo1.png" alt="Brand 1"></div>
+                <div class="slide"><img src="logo2.png" alt="Brand 2"></div>
+                <div class="slide"><img src="logo3.png" alt="Brand 3"></div>
+            </div>
+
+            <div class="dots-container">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="contact section">
+  <div class="container">
+    <h3 class="section-title">Get in Touch</h3>
+    <p class="contact-subtitle">Ready to start a project? Send me a message!</p>
+
+    <form action="https://formspree.io/f/mvzgeydz" method="POST" class="contact-form">
+
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="_replyto" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Requirement/Concern</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="contact">Phone Number</label>
+        <input type="number" id="contact" name="contact">
+      </div>
+
+      <button type="submit" class="submit-button">Send Message</button>
+      <p class="form-note">We will respond as soon as possible</p>
+
+    </form>
+  </div>
+</section>
+
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>AD MEDIA TECHNOLOGY</h3>
+                <p>Complete Advertising Solutions</p>
+            </div>
+            <div class="footer-address">
+                <p><strong>Address:</strong><br>DSIDC-91, Okhla Industrial Area Phase-I,<br>Near Crown Plaza, New Delhi-110020</p>
+            </div>
+            <div class="footer-contact">
+                <p><strong>Email:</strong> admediatechnology@gmail.com</p>
+                <p><strong>Phone:</strong> 011-40580368, 8910935208, 7982448219</p>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2025 AD Media Technology. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
